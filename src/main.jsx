@@ -4,7 +4,7 @@ import App from "./App";
 import "./styles.css";
 
 ReactDOM.createRoot(document.getElementById("root")).render(
-  <BrowserRouter>
+  <BrowserRouter basename="/Full_Stack_Development">
     <App />
   </BrowserRouter>
 );
